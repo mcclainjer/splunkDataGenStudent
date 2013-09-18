@@ -5,7 +5,8 @@ import csv
 import datetime
 import random
 
-filename = '/usr/local/bin/splunkDemoDB-noh.csv'
+#Points to the csv file used for student demographic data
+filename = 'splunkDemoDB-noh.csv'
 
 #Create start and end dates
 endDate = datetime.datetime.now()
