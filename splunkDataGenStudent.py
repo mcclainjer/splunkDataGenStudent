@@ -36,13 +36,13 @@ def createLog( grade ):
         rnd1 = random.randint(1, 1)
         mean = 14
         sd = 4
-        daysOffset = 4#previous value was 4
+        daysOffset = 4
         minOffset = 10
     elif grade == 'F':
         rnd1 = random.randint(0, 1)
         mean = 12
         sd = 6
-        daysOffset = 2#previous value was 5
+        daysOffset = 2
         minOffset = 5
     weekStartTmp = startDate + datetime.timedelta(days=daysOffset)#Creates a disposable variable for the start of the week
     weekEnd = weekStartTmp + datetime.timedelta(days=7)#Creates a disposable variable for the end of the week
